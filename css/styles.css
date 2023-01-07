@@ -36,6 +36,43 @@ h1 {
 }
 /* ---- Universal ---- */
 
+/* ---- Navbar ----*/
+header {
+    background-color: #136C72;
+    padding: 1em 0;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    color: #FFF;
+    text-transform: uppercase;
+    margin-right: 1em;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    background-color: #fff;
+    color: #136C72;
+    padding: 0.25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: 0.75;
+}
+/* ---- Navbar ----*/
 
 /* ---- Hero ---- */
 
@@ -87,9 +124,12 @@ h1 {
     margin-top: 3em;
 }
 
+/*
 .primary-content {
-   /* width: 62%; --- is above--- */
+    width: 62%; --- is above--- 
+   
 }
+*/
 
 .sidebar {
    /* width: 32%; --- is above --- */
