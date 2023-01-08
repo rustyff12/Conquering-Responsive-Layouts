@@ -30,6 +30,7 @@ h1 {
 }
 
 .row {
+    /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
     gap: 100px;
@@ -42,20 +43,47 @@ header {
     padding: 1em 0;
 }
 
+.logo {
+    /* border: 2px solid red; */
+    margin-left: 1em;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* border: 2px solid red;  */
+    /* width: 100%; */
+}
+
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    gap: 1em;
+    /* border: 2px solid red; */
+}
+
+.nav__list--primary {
+    margin: 0 auto;
 }
 
 .nav__item {
     color: #FFF;
     text-transform: uppercase;
-    margin-right: 1em;
+    
 }
 
+/*
+.nav__item--push-right {
+   margin-left: auto;
+}
+*/
 .nav__link {
     color: #fff;
     text-decoration: none;
