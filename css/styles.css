@@ -15,8 +15,8 @@ body {
 
 img {
     width: 100%;
-    max-width: 400px;
-    height: auto;
+    /* max-width: 400px; */
+    /* height: auto; */
 }
 
 h1 {
@@ -45,10 +45,11 @@ header {
     padding: 1em 0;
 }
 
-.logo {
+.nav__logo img {
     /* border: 2px solid red; */
-    margin-left: 1em;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav {
@@ -174,3 +175,21 @@ header {
     color: #87629a;
 }
 /* ---- Body ---- */
+
+
+@media (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .hero__text,
+    .hero__img,
+    .primary-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
+}
