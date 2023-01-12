@@ -45,11 +45,11 @@ header {
     padding: 1em 0;
 }
 
-.nav__logo img {
+.nav__logo {
     /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .nav {
@@ -179,7 +179,8 @@ header {
 
 @media (max-width: 600px) {
     .row {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .hero__text,
